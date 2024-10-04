@@ -1,0 +1,8 @@
+Ideas
+- Use PCA to identify most important features in each convolutional layer
+- Use the FIM / Hessian of cost matrix to determine salient and sloppy directions in parameter space
+- Can we use some sort of dimensional reduction of the filters based on some "basis filters"
+
+Problems
+- All the approaches that we have used so far have depended on pretrained filters, but we eventually want to train branching filters independently, what techniques should we use for this?
+- Can we come up with a nice problem formulation?
